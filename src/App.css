@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Inter", serif;
   background-color: black;
+  overflow-x:hidden;
 }
 .container{
   max-width: 1290px;
@@ -26,9 +27,6 @@ body {
   height: auto;
   /* opacity: .4; */
   /* filter: brightness(50%); */
-
-
-
 
 
 }

@@ -1,9 +1,10 @@
 import React from "react";
-
+import Navbar from "./Navbar";
 const Contact = () => {
   return (
     <>
-      <div className="w-11/12 mx-auto">
+    <Navbar />
+      <div className="w-11/12 mx-auto" id="contact">
       <h1 className="text-white text-2xl sm:text-5xl font-bold text-center my-12">
       Contact Us
         </h1>
