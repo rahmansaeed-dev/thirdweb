@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React from "react"
 const Contact = () => {
+
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       <div className="w-11/12 mx-auto" id="contact">
       <h1 className="text-white text-2xl sm:text-5xl font-bold text-center my-12">
       Contact Us
@@ -46,6 +46,7 @@ const Contact = () => {
               <i class="fa-solid fa-phone"></i>
               +44 5421234560{" "}
             </p>
+            
           </div>
         </div>
       </div>
